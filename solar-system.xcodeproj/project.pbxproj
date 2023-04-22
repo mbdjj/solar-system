@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		34B07F4D29F28781002F67CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B07F4C29F28781002F67CD /* AppDelegate.swift */; };
 		34B07F4F29F28781002F67CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B07F4E29F28781002F67CD /* ContentView.swift */; };
-		34B07F5129F28781002F67CD /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 34B07F5029F28781002F67CD /* Experience.rcproject */; };
 		34B07F5329F28781002F67CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B07F5229F28781002F67CD /* Assets.xcassets */; };
 		34B07F5629F28781002F67CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B07F5529F28781002F67CD /* Preview Assets.xcassets */; };
+		34B07F5D29F28F73002F67CD /* Solar System.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 34B07F5C29F28F73002F67CD /* Solar System.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34B07F4929F28781002F67CD /* solar-system.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "solar-system.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B07F4C29F28781002F67CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34B07F4E29F28781002F67CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		34B07F5029F28781002F67CD /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		34B07F5229F28781002F67CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34B07F5529F28781002F67CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34B07F5C29F28F73002F67CD /* Solar System.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = "Solar System.rcproject"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				34B07F4C29F28781002F67CD /* AppDelegate.swift */,
 				34B07F4E29F28781002F67CD /* ContentView.swift */,
-				34B07F5029F28781002F67CD /* Experience.rcproject */,
+				34B07F5C29F28F73002F67CD /* Solar System.rcproject */,
 				34B07F5229F28781002F67CD /* Assets.xcassets */,
 				34B07F5429F28781002F67CD /* Preview Content */,
 			);
@@ -140,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B07F5D29F28F73002F67CD /* Solar System.rcproject in Sources */,
 				34B07F4F29F28781002F67CD /* ContentView.swift in Sources */,
 				34B07F4D29F28781002F67CD /* AppDelegate.swift in Sources */,
-				34B07F5129F28781002F67CD /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +274,7 @@
 				DEVELOPMENT_TEAM = CMJ553K76W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Solar System";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +306,7 @@
 				DEVELOPMENT_TEAM = CMJ553K76W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Solar System";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
